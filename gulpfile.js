@@ -23,7 +23,7 @@ gulp.task('sass', function(done) {
 });
 
 gulp.task('clean', function() {
-  return gulp.src(['./dist'])
+  return gulp.src(['./docs'])
     .pipe(vinylPaths(del));
 });
 
@@ -33,7 +33,7 @@ gulp.task('dist', function() {
     ], {
       base: './'
     })
-    .pipe(gulp.dest('./dist'));
+    .pipe(gulp.dest('./docs'));
 });
 
 gulp.task('production', gulp.series('clean', 'sass', 'dist',
