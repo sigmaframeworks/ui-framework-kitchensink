@@ -28,8 +28,8 @@ gulp.task('clean', function() {
 });
 
 gulp.task('dist', function() {
-  return gulp.src(['./index.html', './browserconfig.xml', './manifest.json', 'node_modules/sigma-ui-framework/**/*',
-      './fonts/**/*', './markdown/**/*', './styles/**/*', './images/**/*', './locales/**/*', './favicons/**/*', './scripts/**/*'
+  return gulp.src(['./index.html', 'node_modules/sigma-ui-framework/**/*',
+      './fonts/**/*', './styles/**/*', './images/**/*', './locales/**/*', './favicons/**/*', './scripts/**/*'
     ], {
       base: './'
     })
