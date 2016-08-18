@@ -15,6 +15,7 @@
     "bluebird": "^3.4.1",
     "highlight.js": "^9.6.0",
     "i18next-xhr-backend": "^1.1.0",
+    "aurelia-validation": "github:jdanyow/validation-prototype",
     "sigma-ui-framework": "file:///Users/adarshpastakia/Workspace/SigmaFrameworks/sigma-ui-framework"
   },
   "peerDependencies": {},

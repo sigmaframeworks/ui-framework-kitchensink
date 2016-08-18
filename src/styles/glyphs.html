@@ -23,11 +23,12 @@
       font-size: 10px;
     }
   </style>
-  <p>Glyph Icons from <a href="http://www.flaticon.com" target="_blank">FlatIcon</a>.</p>
-  <p>All glyph icons must be prefixed with <code>fi-ui-</code></p>
-  <div class="glyph-card" repeat.for="g of glyphs">
-    <div class="glyph"><span class="fi-ui-${g}"></span></div>
-    <p class="ui-text-center ui-selectable">${g}</p>
-  </div>
-
+  <ui-content scroll padded>
+    <p>Glyph Icons from <a href="http://www.flaticon.com" target="_blank">FlatIcon</a>.</p>
+    <p>All glyph icons must be prefixed with <code>fi-ui-</code></p>
+    <div class="glyph-card" repeat.for="g of glyphs">
+      <div class="glyph"><span class="fi-ui-${g}"></span></div>
+      <p class="ui-text-center ui-selectable">${g}</p>
+    </div>
+  </ui-content>
 </template>
