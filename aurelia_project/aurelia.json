@@ -92,6 +92,7 @@
           "lodash",
           "moment",
           "numeral",
+          "zeroclipboard",
           "aurelia-validatejs",
           "aurelia-fetch-client",
           {

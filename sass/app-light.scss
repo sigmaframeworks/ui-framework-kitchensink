@@ -26,3 +26,32 @@ $app-menu-active-bg: $cadmium-red;
 $text-muted: $wg-7;
 
 @import "framework";
+
+
+.screen-frame {
+  border-radius: .3em;
+  border: 1px solid silver;
+  max-width: 768px;
+  margin: 0 auto;
+  // pointer-events: none;
+  cursor: zoom-in;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+  }
+}
+.zoom-container {
+  background: rgba(dimgray, .5);
+  text-align: center;
+  vertical-align: middle;
+  z-index: 50000;
+  @include position(fixed, 0,0,0,0);
+  @include flex-column(center, center);
+
+  img {
+    max-width: 1024px;
+    max-height: 640px;
+    height: 100%;
+  }
+}

@@ -22,6 +22,48 @@ export class InputsHome {
 				nav: true,
 				auth: false,
 				name: 'buttons'
+			}, {
+				route: 'input',
+				moduleId: './input',
+				title: 'Basic Inputs',
+				nav: true,
+				auth: false,
+				name: 'input'
+			}, {
+				route: 'options',
+				moduleId: './options',
+				title: 'Checkbox/Radio',
+				nav: true,
+				auth: false,
+				name: 'file'
+			}, {
+				route: 'lists',
+				moduleId: './lists',
+				title: 'List Inputs',
+				nav: true,
+				auth: false,
+				name: 'lists'
+			}, {
+				route: 'file',
+				moduleId: './file',
+				title: 'File Inputs',
+				nav: true,
+				auth: false,
+				name: 'file'
+			}, {
+				route: 'lang',
+				moduleId: './lang',
+				title: 'Language Selector',
+				nav: true,
+				auth: false,
+				name: 'lang'
+			}, {
+				route: 'markdown',
+				moduleId: './markdown',
+				title: 'Markdown Editor',
+				nav: true,
+				auth: false,
+				name: 'markdown'
 			}]);
 	}
 }

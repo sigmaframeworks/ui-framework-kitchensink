@@ -2,6 +2,7 @@ import {Aurelia} from 'aurelia-framework'
 import {I18N} from 'aurelia-i18n';
 import * as Backend from 'i18next-xhr-backend';
 import environment from './environment';
+import "highlight.js";
 
 //Configure Bluebird Promises.
 //Note: You may want to use environment-specific configuration.

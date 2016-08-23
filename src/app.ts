@@ -12,7 +12,6 @@ export class App {
 		config.title = UIConstants.App.Title;
 		config.showInfoBox = false;
 		config.showLogo = true;
-		config.icon = "images/logo.png";
 		config.map([{
 			route: ['', 'home'],
 			moduleId: './home/view',
