@@ -23,7 +23,7 @@ gulp.task('sass', function(done) {
 });
 
 gulp.task('clean', function() {
-  return gulp.src(['./docs/node_modules', './docs/styles', './docs/fonts', './docs/images', './docs/scripts'])
+  return gulp.src(['./docs/*', '!./docs/CNAME'])
     .pipe(vinylPaths(del));
 });
 
